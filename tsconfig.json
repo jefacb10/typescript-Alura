@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        //define pasta onde será publicado o código em EcmaScript
+        "outDir": "dist/js",
+        //define qual versão do EcmaScript será trabalhado
+        "target": "ES6",
+        //Não permitir executar se tiver com erro
+        "noEmitOnError": true,
+        //Não permitir tipo any automaticamente
+        "noImplicitAny": true
+    
+    },
+    //define a pasta original onde está o código TS
+    //app: nome da pasta
+    // /**: todas as subpastas
+    // /*: todos os arquivos
+    "include": [
+        "app/**/*"
+    ]
+}
